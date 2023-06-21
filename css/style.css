@@ -259,7 +259,27 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #00ccff;
 }
 
+#hero .btn-get-cv {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #00ccff;
+  border: 1px solid #00ccff;
+
+}
+
 #hero .btn-get-started:hover {
+  background: #99d3fa30;
+  transform: scale(1.2);
+}
+
+#hero .btn-get-cv:hover {
   background: #99d3fa30;
   transform: scale(1.2);
 }
